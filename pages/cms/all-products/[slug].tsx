@@ -100,7 +100,7 @@ const SingleProduct = () => {
                     )}
                 </CardContent>
             </Card>
-        </Box>
+    </Box>
   )
 }
 

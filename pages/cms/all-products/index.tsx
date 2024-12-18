@@ -125,8 +125,8 @@ const AllBlogs : React.FC = () => {
             <Grid item xs={12} sm={8} md={9}>
               <Container maxWidth="lg">
                 <form 
-                onSubmit={handleSearch}
-              >
+                    onSubmit={handleSearch}
+                >
                 <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 1, mt: 2, mb: 2 }}>
                 <TextField
                     variant="outlined"
